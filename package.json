@@ -1,0 +1,19 @@
+{
+  "name": "agentic-hacks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Matt Van Horn's agentic engineering hacks, turned into durable Smithers workflows.",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "smithers-orchestrator": "^0.22.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "typescript": "^5.9.3"
+  }
+}

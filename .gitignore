@@ -1,0 +1,8 @@
+node_modules
+.smithers
+*.log
+.DS_Store
+runs
+sandboxes
+state
+tmp
