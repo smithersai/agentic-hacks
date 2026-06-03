@@ -3,6 +3,8 @@
 Source article: https://x.com/mvanhorn/status/2061877533885473181
 Repo: https://github.com/smithersai/agentic-hacks
 
+Each tweet has a matching GIF in `assets/`, named by tweet number.
+
 ---
 
 **1/**
@@ -19,12 +21,16 @@ https://github.com/smithersai/agentic-hacks
 Why: plan before you build.
 What: takes a rough idea, researches the repo, writes plan.md.
 
+![2_brain-dump-to-plan](assets/2_brain-dump-to-plan.gif)
+
 ---
 
 **3/** compound-build
 
 Why: trusting a plan only works if something checks the output.
 What: loops implement, validate, review until both pass.
+
+![3_compound-build](assets/3_compound-build.gif)
 
 ---
 
@@ -33,12 +39,16 @@ What: loops implement, validate, review until both pass.
 Why: parallel work by hand means babysitting terminal tabs.
 What: runs N independent tasks at once, with a concurrency cap.
 
+![4_fan-out-tabs](assets/4_fan-out-tabs.gif)
+
 ---
 
 **5/** meeting-to-tickets
 
 Why: action items from meetings get lost.
 What: reads a transcript, extracts the action items, files one ticket each.
+
+![5_meeting-to-tickets](assets/5_meeting-to-tickets.gif)
 
 ---
 
@@ -47,12 +57,16 @@ What: reads a transcript, extracts the action items, files one ticket each.
 Why: agents forget what you already decided.
 What: reads your notes, recalls past decisions from memory, writes the new one back.
 
+![6_knowledge-recall](assets/6_knowledge-recall.gif)
+
 ---
 
 **7/** errand-runner
 
 Why: real-world actions need a human OK.
 What: plans the command, waits for approval, then runs it.
+
+![7_errand-runner](assets/7_errand-runner.gif)
 
 ---
 
@@ -61,12 +75,17 @@ What: plans the command, waits for approval, then runs it.
 Why: some work should start from an email, not a prompt.
 What: suspends until an email arrives, triages it, drafts a reply for approval.
 
+![8_inbox-agent](assets/8_inbox-agent.gif)
+
 ---
 
 **9/** two more
 
 morning-research-digest: a daily cron that researches recent changes.
 skill-from-example: writes a new skill by copying one that works.
+
+![9_morning-research-digest](assets/9_morning-research-digest.gif)
+![9_skill-from-example](assets/9_skill-from-example.gif)
 
 ---
 
