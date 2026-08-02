@@ -23,7 +23,7 @@ bun install          # or pnpm / npm install
 You'll need the Smithers CLI and a coding agent on your PATH:
 
 ```bash
-bun add -g smithers-orchestrator   # provides the `smithers` command
+bun add -g smthrs   # provides the `smithers` command
 ```
 
 Run any workflow by path:

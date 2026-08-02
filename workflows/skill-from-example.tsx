@@ -1,6 +1,6 @@
 // smithers-source: authored
 // smithers-display-name: Skill From Example
-/** @jsxImportSource smithers-orchestrator */
+/** @jsxImportSource smthrs */
 //
 // HACK: "To build a new skill, point the agent at a skill that already works and
 //        have it replicate the structure for the new use case." This is the most
@@ -14,7 +14,7 @@
 //     "goal":"a /retro skill that summarizes the week from git log",
 //     "out":".claude/skills/retro" }'
 
-import { createSmithers } from "smithers-orchestrator";
+import { createSmithers } from "smthrs";
 import { z } from "zod/v4";
 import { agents } from "../agents";
 

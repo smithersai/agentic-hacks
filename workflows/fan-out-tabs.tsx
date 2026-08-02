@@ -1,6 +1,6 @@
 // smithers-source: authored
 // smithers-display-name: Fan Out (replace cmux tabs)
-/** @jsxImportSource smithers-orchestrator */
+/** @jsxImportSource smthrs */
 //
 // HACK: "Run 4–6 concurrent cmux tabs, each its own session." That's manual
 //        fan-out: you, the human, are the scheduler — opening tabs, remembering
@@ -14,7 +14,7 @@
 //     "tasks":["upgrade eslint to v9","add OG tags to /blog","fix flaky auth test"],
 //     "concurrency":3 }'
 
-import { createSmithers } from "smithers-orchestrator";
+import { createSmithers } from "smthrs";
 import { z } from "zod/v4";
 import { agents } from "../agents";
 

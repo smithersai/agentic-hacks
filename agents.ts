@@ -4,7 +4,7 @@
 // they all point at one local Claude Code agent. Swap in different models or
 // providers per role (AnthropicAgent, CodexAgent, GeminiAgent, …) and every
 // workflow picks up the change without edits. See `smithers agent add`.
-import { type AgentLike, ClaudeCodeAgent } from "smithers-orchestrator";
+import { type AgentLike, ClaudeCodeAgent } from "smthrs";
 
 export const providers = {
   claude1: new ClaudeCodeAgent({ cwd: process.cwd(), yolo: true }),

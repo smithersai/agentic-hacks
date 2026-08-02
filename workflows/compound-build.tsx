@@ -1,6 +1,6 @@
 // smithers-source: authored
 // smithers-display-name: Compound Build (trust the plan)
-/** @jsxImportSource smithers-orchestrator */
+/** @jsxImportSource smthrs */
 //
 // HACK: "Trust the plan — don't read it, just /ce-work it." Compound engineering:
 //        the agent builds, *something checks the build*, and on failure it loops
@@ -12,7 +12,7 @@
 //   smithers up compound-build.tsx --input '{"plan":"plan.md"}'
 //   smithers up compound-build.tsx -d            # background; check `smithers ps`
 
-import { createSmithers } from "smithers-orchestrator";
+import { createSmithers } from "smthrs";
 import { z } from "zod/v4";
 import { agents } from "../agents";
 
