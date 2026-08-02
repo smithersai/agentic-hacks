@@ -1,6 +1,6 @@
 // smithers-source: authored
 // smithers-display-name: Morning Research Digest (/last30days, scheduled)
-/** @jsxImportSource smithers-orchestrator */
+/** @jsxImportSource smthrs */
 //
 // HACK: "Run /last30days before planning to research current community knowledge."
 //        Done by hand, you remember to do it... sometimes. The repeatable version
@@ -16,7 +16,7 @@
 //   smithers cron add "0 9 * * *" .smithers/workflows/agentic-hacks/morning-research-digest.tsx
 //   smithers cron list
 
-import { createSmithers } from "smithers-orchestrator";
+import { createSmithers } from "smthrs";
 import { z } from "zod/v4";
 import { agents } from "../agents";
 

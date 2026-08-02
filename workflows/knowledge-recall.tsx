@@ -1,6 +1,6 @@
 // smithers-source: authored
 // smithers-display-name: Knowledge Recall (your second brain)
-/** @jsxImportSource smithers-orchestrator */
+/** @jsxImportSource smthrs */
 //
 // HACK: "Point agents at your Bear/Obsidian/Notion vault — accumulated context
 //        compounds, improving every decision." The vault is two things: a
@@ -14,7 +14,7 @@
 //     "question":"should we adopt tRPC or stick with REST for the new service?",
 //     "vault":"~/notes" }'
 
-import { createSmithers } from "smithers-orchestrator";
+import { createSmithers } from "smthrs";
 import { z } from "zod/v4";
 import { agents } from "../agents";
 

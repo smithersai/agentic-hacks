@@ -1,6 +1,6 @@
 // smithers-source: authored
 // smithers-display-name: Errand Runner (real-world CLIs)
-/** @jsxImportSource smithers-orchestrator */
+/** @jsxImportSource smthrs */
 //
 // HACK: "Build custom CLIs (Printing Press) so agents run real-world errands —
 //        preheat the Tesla, order groceries, book a thing." The catch the
@@ -17,7 +17,7 @@
 //     "errand":"preheat the car to 72F and start grocery order for the usual",
 //     "cli":"tesla climate on --temp 72" }'
 
-import { createSmithers } from "smithers-orchestrator";
+import { createSmithers } from "smthrs";
 import { z } from "zod/v4";
 import { agents } from "../agents";
 

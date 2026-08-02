@@ -1,6 +1,6 @@
 // smithers-source: authored
 // smithers-display-name: Brain Dump → Plan
-/** @jsxImportSource smithers-orchestrator */
+/** @jsxImportSource smthrs */
 //
 // HACK: "The moment you have an idea, make a plan.md. The thinking goes in the
 //        plan; the execution is mechanical." — and the same method works for
@@ -15,7 +15,7 @@
 //   smithers up brain-dump-to-plan.tsx --input '{"prompt":"add per-org rate limits"}'
 //   smithers up brain-dump-to-plan.tsx --input '{"prompt":"Q3 GTM strategy","mode":"prose"}'
 
-import { createSmithers } from "smithers-orchestrator";
+import { createSmithers } from "smthrs";
 import { z } from "zod/v4";
 import { agents } from "../agents";
 

@@ -1,6 +1,6 @@
 // smithers-source: authored
 // smithers-display-name: Inbox Agent (email-triggered)
-/** @jsxImportSource smithers-orchestrator */
+/** @jsxImportSource smthrs */
 //
 // HACK: "AgentMail — email triggers a session." The deep version of "become the
 //        signal": the work doesn't start when you sit down, it starts when an
@@ -15,7 +15,7 @@
 //   # AgentMail webhook → Gateway delivers the event:
 //   smithers signal <run-id> inbound-email --payload '{"from":"...","subject":"...","body":"..."}'
 
-import { createSmithers, WaitForEvent } from "smithers-orchestrator";
+import { createSmithers, WaitForEvent } from "smthrs";
 import { z } from "zod/v4";
 import { agents } from "../agents";
 

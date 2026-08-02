@@ -1,6 +1,6 @@
 // smithers-source: authored
 // smithers-display-name: Meeting → Tickets
-/** @jsxImportSource smithers-orchestrator */
+/** @jsxImportSource smthrs */
 //
 // HACK: "Granola captures the meeting; the agent processes the transcript." The
 //        manual version: read the transcript, find the commitments, open a
@@ -10,7 +10,7 @@
 //
 //   smithers up meeting-to-tickets.tsx --input '{"transcript":"notes/standup-2026-06-03.md"}'
 
-import { createSmithers } from "smithers-orchestrator";
+import { createSmithers } from "smthrs";
 import { z } from "zod/v4";
 import { agents } from "../agents";
 
